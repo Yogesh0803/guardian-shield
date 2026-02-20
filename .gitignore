@@ -1,0 +1,43 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Environment files
+.env
+.env.local
+
+# Build outputs
+frontend/build/
+*.egg-info/
+dist/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Database
+*.db
+*.sqlite3
+
+# ML data & models (large files - regenerate with training scripts)
+ml/data/cicids2017/
+ml/data/GeoLite2-Country.mmdb
+ml/models/saved/
+
+# Python
+*.pyc
+__pycache__/
